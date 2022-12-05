@@ -24,9 +24,7 @@ end
 
 ## get message
 
-stacks.each do |stack|
-  puts stack[-1]
-end
+puts stacks.map {|s| s.last }.compact.join
 
 __END__
 
